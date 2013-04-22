@@ -1,7 +1,7 @@
 filewatcher
 ===========
 
-watch paths for any changes in their subdirectories.
+Watch paths for any changes in their subdirectories.
 
 Installation
 ------------
