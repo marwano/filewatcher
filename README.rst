@@ -1,7 +1,7 @@
 filewatcher
 ===========
 
-Class that can watch the a list of paths for any changes in their subdirectories.
+watch paths for any changes in their subdirectories.
 
 Installation
 ------------
