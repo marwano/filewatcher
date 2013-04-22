@@ -13,7 +13,7 @@ except ImportError:
 setup(
     name='filewatcher',
     version=version,
-    description="Collection of useful functions and classes",
+    description="Watch paths for any changes in their subdirectories",
     long_description=readme + '\n\n' + changes,
     keywords='filewatcher',
     author='Marwan Alsabbagh',
