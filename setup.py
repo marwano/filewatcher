@@ -1,11 +1,14 @@
 
 from setuptools import setup
-from utile import git_version
-import filewatcher
+from filewatcher import __version__
 
 readme = open('README.rst').read()
 changes = open('CHANGES.txt').read()
-version = git_version(filewatcher.__version__)
+
+try:
+    version = __import__('utile').git_version(__version__)
+except ImportError:
+    version = __version__
 
 setup(
     name='filewatcher',
