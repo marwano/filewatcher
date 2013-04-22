@@ -1,0 +1,8 @@
+include LICENSE
+include *.txt
+include *.rst
+recursive-include docs *
+recursive-include tests *
+recursive-exclude docs *.pyc
+recursive-exclude tests *.pyc
+prune docs/_build
